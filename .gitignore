@@ -1,0 +1,45 @@
+# Config files with sensitive data
+config/database.php
+config/local.php
+.env
+*.local.php
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+error_log
+
+# Backup files
+*.sql
+*.sql.gz
+backup-*
+
+# Temporary files
+*.tmp
+*.temp
+cache/
+temp/
+
+# Composer
+vendor/
+composer.lock
+
+# Node modules (if any)
+node_modules/
+
+# Uploaded files
+uploads/
+ocr_cache/
+
+# Environment files
+.env
+.env.local
+.env.production
